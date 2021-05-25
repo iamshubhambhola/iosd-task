@@ -1,0 +1,112 @@
+@media only screen and ( max-width :1590px) {
+    .nav1{
+        padding-right: 23rem;
+    }
+}
+@media only screen and ( max-width :1500px) {
+    .nav1{
+        width: 50vw;
+    }
+    img[src="/images/ebuylogo.png"]{
+        margin-left: 25vw;
+    }
+}
+@media only screen and ( max-width :1250px) {
+    .nav1{
+        width: 60vw;
+        padding-right: 20rem;
+    }
+    img[src="/images/ebuylogo.png"]{
+        margin-left: 28vw;
+    }
+}
+@media only screen and ( max-width :1205px) { 
+    img[src="/images/ebuylogo.png"]{
+        margin-left: 28vw;
+    }
+    .hdr1{
+        padding: 20px;
+    }
+    .cart,.acc{
+        padding: 13px;
+    }
+}
+@media only screen and ( max-width :1101px) { 
+    .grid-container{
+        grid-template-rows: 8rem 1fr;
+    }
+    .hdr2>img[src="/images/ebuylogo.png"]{
+        display: none;
+    }  
+}
+@media only screen and ( max-width :1000px) {
+    .nav1{
+        width: 70vw;
+        padding-right: 18rem;
+    }
+    .nav2{
+        width: 20vw;
+    }
+}
+@media only screen and ( max-width :900px){
+    .cartt{
+        justify-content: center;
+    }
+}
+@media only screen and ( max-width :800px) {
+    .alignup{
+        justify-content: center;
+    } 
+    .nav1{
+        font-size: 2rem;
+    }
+    .nav2>a{
+        font-size: 2rem;
+    }
+}
+@media only screen and ( max-width :750px) {  
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav1{
+        flex-direction: column;
+        width: 100vw;
+        padding-right: 0%;
+        font-size: 2.2rem;
+    }
+    .nav1>li{
+        margin-top: 2.4rem;
+    }
+    .nav2{
+        padding-right: 0%; 
+        margin-bottom: 2.4rem;
+        margin-top: 2.4rem;
+    }
+    .nav2>a{
+        font-size: 2.2rem;
+    }
+    .accessory{
+        display: none;
+    }
+    .a1,.a2{
+        display: flex;
+        flex-direction: column;
+    }
+    .backto{
+        padding-left: 38%;
+    }
+    .cntr{
+        justify-content: center;
+    }
+}
+@media only screen and ( max-width :520px) { 
+    .search{
+        display: none;
+    }
+}
+@media only screen and ( max-width :410px) { 
+    .backto{ 
+        padding-left: 31%;
+    }
+}
